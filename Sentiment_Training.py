@@ -15,7 +15,7 @@ import json
 
 
 class Sentiment_trainer:
-    def __init__(self, max_seq_len,
+    def __init__(self, max_seq_len, # 最大序列长度
                  batch_size,
                  lr, # 学习率
                  with_cuda=True, # 是否使用GPU, 如未找到GPU, 则自动切换CPU
